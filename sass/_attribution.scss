@@ -1,0 +1,15 @@
+// attribution //
+
+.attribution {
+	padding-bottom: 1.5em;
+	font-size: 1.3rem;
+
+	&__link {
+		text-decoration: none;
+		color: $dark-moderate-cyan;
+
+		&:hover {
+			color: $white;
+		}
+	}
+}

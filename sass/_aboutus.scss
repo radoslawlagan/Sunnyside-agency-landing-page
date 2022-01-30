@@ -1,0 +1,78 @@
+// aboutus //
+
+.grid-container {
+	.grid__element {
+		padding: 4em 2em;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background-color: $light-gray;
+
+		&-heading {
+			font-family: 'Fraunces', serif;
+			font-size: 3rem;
+			font-weight: 900;
+			color: $very-dark-desaturated-blue;
+		}
+
+		&-text {
+			padding-block: 1.2em;
+			max-width: 32ch;
+			line-height: 1.5;
+			color: $dark-grayish-blue;
+			margin-inline: auto;
+		}
+
+		&-link {
+			position: relative;
+			font-family: 'Fraunces', serif;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: $very-dark-desaturated-blue;
+			z-index: 1;
+
+			&:first-of-type:hover::before {
+				@include before;
+				background-color: $yellow;
+			}
+			&:last-of-type:hover::before {
+				@include before;
+				background-color: $soft-red;
+			}
+		}
+	}
+
+	.egg {
+		height: 350px;
+		background-image: url(../images/mobile/image-transform.jpg);
+	}
+
+	.glass {
+		height: 350px;
+		background-image: url(../images/mobile/image-stand-out.jpg);
+	}
+
+	.graphic {
+		@include graphic-photo-mobile;
+		background-image: url(../images/mobile/image-graphic-design.jpg);
+
+		.grid__element-heading,
+		.grid__element-text {
+			color: $dark-desaturated-cyan;
+		}
+	}
+
+	.photography {
+		@include graphic-photo-mobile;
+		background-image: url(../images/mobile/image-photography.jpg);
+
+		.grid__element-heading,
+		.grid__element-text {
+			color: $dark-blue;
+		}
+	}
+}

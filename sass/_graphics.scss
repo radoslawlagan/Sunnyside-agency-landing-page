@@ -1,0 +1,38 @@
+// graphics //
+
+.graphics {
+	&__wrapper {
+		width: 100%;
+		height: clamp(300px, 70vw, 550px);
+	}
+
+	&__wrapper--one,
+	&__wrapper--two {
+		width: 100%;
+		height: 50%;
+		display: flex;
+	}
+
+	&__img {
+		height: 100%;
+		width: 50%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.milk {
+		background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+	}
+
+	.orange {
+		background-image: url(../images/mobile/image-gallery-orange.jpg);
+	}
+
+	.ice {
+		background-image: url(../images/mobile/image-gallery-cone.jpg);
+	}
+
+	.sugar {
+		background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+	}
+}

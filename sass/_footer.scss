@@ -1,0 +1,39 @@
+// footer //
+
+footer {
+	background-color: $footer-bg;
+	color: $dark-desaturated-cyan;
+	text-align: center;
+
+	.footer {
+		&__logo {
+			padding: 2.5em;
+		}
+
+		&__menu {
+			&-link {
+				margin-inline: 1em;
+				text-decoration: none;
+				color: $dark-moderate-cyan;
+
+				&:hover {
+					color: $white;
+				}
+			}
+		}
+
+		&__socials {
+			padding-block: 4.5em;
+
+			&-link {
+				font-size: 2.3rem;
+				margin-inline: 0.5em;
+				color: $dark-moderate-cyan;
+
+				&:hover {
+					color: $white;
+				}
+			}
+		}
+	}
+}

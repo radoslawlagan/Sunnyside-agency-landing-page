@@ -1,0 +1,25 @@
+@mixin graphic-photo-mobile {
+	height: 550px;
+	padding: 1em 2em;
+	justify-content: end;
+}
+
+@mixin graphic-photo-desktop {
+	padding: 0;
+	height: auto;
+	background-position: top;
+	align-items: center;
+	text-align: center;
+}
+
+@mixin before {
+	content: '';
+	width: 110%;
+	height: 10px;
+	position: absolute;
+	bottom: -2px;
+	left: -5%;
+	border-radius: 50px;
+	opacity: 35%;
+	z-index: 0;
+}
