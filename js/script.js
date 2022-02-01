@@ -13,5 +13,4 @@ const collapseNav = () => {
 };
 
 btn.addEventListener('click', handleNav);
-
-// need forEach method on all links - fix later //
+links.forEach((link) => link.addEventListener('click', collapseNav));

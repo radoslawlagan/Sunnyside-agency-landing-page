@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [HERE](https://your-live-site-url.com)
 
 ## My process
 
@@ -25,6 +25,8 @@ Users should be able to:
 
 - HTML5
 - SASS (SCSS)
+- BEM
 - Flexbox
 - CSS Grid
+- JS
 - Mobile-first workflow
