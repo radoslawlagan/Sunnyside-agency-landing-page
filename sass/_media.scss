@@ -111,4 +111,10 @@
 			max-width: 35ch;
 		}
 	}
+
+	.grid-container {
+		.grid__element-text {
+			margin-inline: 0;
+		}
+	}
 }
