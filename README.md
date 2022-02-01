@@ -32,3 +32,4 @@ Users should be able to:
 - CSS Grid
 - JS
 - Mobile-first workflow
+- AOS (https://michalsnik.github.io/aos/)
